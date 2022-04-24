@@ -19,7 +19,7 @@
    * Create a new project for this backup
    * Navigate to Cloud Storage
    * Click on Create Bucket
-   * Create a new bucked in the **Nearline** Storage Tier
+   * Create a new bucket in the **Nearline** Storage Tier
    * Check box to **Enforce public access prevention on this bucket**
    * Select the **Uniform** option for IAM
    * Under Object Versioning, select **1 Copy** with **30 Day Retention**
