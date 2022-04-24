@@ -48,13 +48,13 @@
    * Install gsutil using steps [here](https://cloud.google.com/storage/docs/gsutil_install#deb)
    * Create Directory to store .boto file, in this case we will use *~/.config/boto* to store our file.
    * Run the following command to create your boto file, provide path to JSON file when prompted:
-> gsutil config -e -o /home/bajadav/.config/boto/.boto
+> gsutil config -e -o /home/USER/.config/boto/.boto
 
-   * Set the following environment variables in you *~/.bash_profile* :
+   * Set the following environment variables in your *~/.bash_profile* :
 > export BOTO_CONFIG=~/.config/boto/.boto
 
 > export BOTO_PATH=~/.config/boto/.boto
 
 * You should be ready to run gsutil rsync now, here is a sample of the command used to backup */opt* :
 
-> gsutil -m rsync -e -r /opt gs://backup-kubectrl-01/opt &> /var/log/gsutil/opt-`date +\%Y\%m\%d`.log
+> gsutil -m rsync -e -r /opt gs://YOUR-STORAGE-BUCKET */opt &> /var/log/gsutil/opt-`date +\%Y\%m\%d`.log
