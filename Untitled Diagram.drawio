@@ -1,9 +1,36 @@
-<mxfile modified="2023-02-24T23:55:26.605Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mqj-bnnACMGlwo4uGj9A" version="20.8.23" type="github">
+<mxfile modified="2023-02-25T00:09:43.296Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RhlbZHPcmXGZMB323qVg" version="20.8.23" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
-    <mxGraphModel dx="714" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="714" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1001" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1002" value="k3s-01&lt;br&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_server;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1007" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="160" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1005" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="9vJiYLKIISm6_TSQ1ZCC-1007">
+          <mxGeometry y="20" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1006" value="k3s-03" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_server;" vertex="1" parent="9vJiYLKIISm6_TSQ1ZCC-1007">
+          <mxGeometry width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1009" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="160" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1003" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=master" vertex="1" parent="9vJiYLKIISm6_TSQ1ZCC-1009">
+          <mxGeometry y="20" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1004" value="k3s-02" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_server;" vertex="1" parent="9vJiYLKIISm6_TSQ1ZCC-1009">
+          <mxGeometry width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9vJiYLKIISm6_TSQ1ZCC-1010" value="MySQL" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.virtual_database_server;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="70" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
